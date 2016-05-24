@@ -6,6 +6,8 @@
 }
 h1 {
   margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: center;
 }
 
 p {
@@ -13,34 +15,50 @@ p {
   /*background-color: #e1e1e1;*/
   width: 90%;
   height: 150px;
-  /*margin-right: auto;*/
-  /*margin-left: auto;*/
-  margin-top: 40px;
   font-family: Helvetica;
   color: black;
   padding: 10px;
+  float: left;
 }
 
-section {
-	float: right;
-	border: 1px solid black;
-	background-color: blue;
-	color: black;
-	position: relative;
-	top: 0;
-	right: 0;
-	padding: 10px;
+.title {
+  float: right;
+  border: 1px solid black;
+  padding: 5px 20px 5px 20px;
+  background-color: blue;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.title#title1 {
+  background-color: #D59898;
+  color: black;
+}
+.title#title2 {
+  background-color: #C14543;
+  color: white;
+}
+.title#title3 {
+  background-color: #E5D198;
+  color: black;
 }
 
 div#p1{
-	margin: 5px;
+	clear: right;
+  margin-top: 10px;
+  background-color: #e1e1e1;
 }
 div#p2{
-	margin: 5px;
+	clear: right;
+  margin-top: 10px;
+  background-color: #e1e1e1;
 }
 div#p3{
-	margin: 5px;
+	clear: right;
+  margin-top: 10px;
+  background-color: #e1e1e1;
 }
+
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
@@ -132,8 +150,6 @@ div#p3{
   .col-md-12 {
     width: 100%;
   }
-
-
 }
 
 /********** Mobile version **********/
